@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import './Jobs.css'; // You can style it as per your needs
 import { Link } from 'react-router-dom';
 const jobList = [
@@ -84,7 +84,7 @@ const Jobs = () => {
 };
 
 export default Jobs;
-*/
+/*
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -121,3 +121,4 @@ function Jobs() {
 }
 
 export default Jobs;
+*/

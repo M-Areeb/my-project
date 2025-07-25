@@ -1,5 +1,5 @@
 
-/*
+
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -145,7 +145,7 @@ const JobPostForm = () => {
 };
 
 export default JobPostForm;
-*/
+/*
 
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -235,3 +235,4 @@ function JobPostForm() {
 }
 
 export default JobPostForm;
+*/
