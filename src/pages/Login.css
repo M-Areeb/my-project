@@ -1,0 +1,110 @@
+/* Container */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.login-container h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #2c5282;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.login-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Inputs */
+.login-form input,
+.login-form select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.login-form input:focus,
+.login-form select:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.2);
+}
+
+/* Button */
+.login-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-form button:hover {
+  background-color: #2c5282;
+}
+
+/* Feedback messages */
+.login-form .error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.login-form .success {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Sign-up link */
+.signup-link {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #444;
+}
+
+.signup-link a {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

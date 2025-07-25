@@ -1,0 +1,102 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero button {
+  background-color: white;
+  color: #1d4ed8;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: #e0e7ff;
+}
+
+.features {
+  padding: 3rem 2rem;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #1e40af;
+}
+
+.feature-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .feature-grid {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.feature-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  max-width: 300px;
+  margin: auto;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  color: #1d4ed8;
+}
+
+.cta {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.cta h2 {
+  font-size: 1.8rem;
+  color: #1d4ed8;
+  margin-bottom: 1rem;
+}
+
+.cta button {
+  margin-top: 1rem;
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #2563eb;
+}

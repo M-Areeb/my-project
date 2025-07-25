@@ -1,0 +1,44 @@
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+  color: #222;
+}
+
+.typing-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.dynamic-word::after {
+  content: 'Workers';
+  animation: rotateWords 6s infinite;
+  margin-left: 0.5rem;
+  color: #1d4ed8;
+}
+
+@keyframes rotateWords {
+  0%    { content: 'Workers'; }
+  25%   { content: 'Employers'; }
+  50%   { content: 'Opportunities'; }
+  75%   { content: 'Dreams'; }
+  100%  { content: 'Workers'; }
+}
+
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #1d4ed8;
+}
+
+ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin: 0.3rem 0;
+}
